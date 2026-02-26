@@ -53,27 +53,27 @@ const main = async () => {
 
     const grammarPresent = [
       {
-        question: "She ___ to school every day.\n그녀는 매일 학교에 ___.",
+        question: "She ___ to school every day.\n\n(그녀는 매일 학교에 ___)",
         options: ["go", "goes", "going"],
         correct: 1,
       },
       {
-        question: "They ___ students.\n그들은 학생 ___.",
+        question: "They ___ students.\n\n(그들은 학생 ___)",
         options: ["is", "am", "are"],
         correct: 2,
       },
       {
-        question: "I ___ a book right now.\n나는 지금 책을 읽고 ___.",
+        question: "I ___ a book right now.\n\n(나는 지금 책을 읽고 ___)",
         options: ["read", "am reading", "reads"],
         correct: 1,
       },
       {
-        question: "He ___ like coffee.\n그는 커피를 좋아하지 ___.",
+        question: "He ___ like coffee.\n\n(그는 커피를 좋아하지 ___)",
         options: ["don't", "doesn't", "isn't"],
         correct: 1,
       },
       {
-        question: "___ you speak English?\n당신은 영어를 ___ 니까?",
+        question: "___ you speak English?\n\n(당신은 영어를 ___ 니까?)",
         options: ["Does", "Do", "Are"],
         correct: 1,
       },
@@ -111,27 +111,27 @@ const main = async () => {
 
     const grammarPast = [
       {
-        question: "I ___ to Seoul yesterday.\n나는 어제 서울에 ___.",
+        question: "I ___ to Seoul yesterday.\n\n(나는 어제 서울에 ___)",
         options: ["go", "went", "gone"],
         correct: 1,
       },
       {
-        question: "She ___ a movie last night.\n그녀는 어젯밤 영화를 ___.",
+        question: "She ___ a movie last night.\n\n(그녀는 어젯밤 영화를 ___)",
         options: ["watch", "watched", "watching"],
         correct: 1,
       },
       {
-        question: "They ___ happy yesterday.\n그들은 어제 행복 ___.",
+        question: "They ___ happy yesterday.\n\n(그들은 어제 행복 ___)",
         options: ["was", "were", "are"],
         correct: 1,
       },
       {
-        question: "He ___ eat breakfast this morning.\n그는 오늘 아침 식사를 ___ 않았다.",
+        question: "He ___ eat breakfast this morning.\n\n(그는 오늘 아침 식사를 ___ 않았다)",
         options: ["don't", "didn't", "doesn't"],
         correct: 1,
       },
       {
-        question: "___ you see him yesterday?\n당신은 어제 그를 ___ 니까?",
+        question: "___ you see him yesterday?\n\n(당신은 어제 그를 ___ 니까?)",
         options: ["Do", "Did", "Does"],
         correct: 1,
       },
@@ -169,27 +169,27 @@ const main = async () => {
 
     const grammarFuture = [
       {
-        question: "I ___ visit my friend tomorrow.\n나는 내일 친구를 방문할 ___.",
+        question: "I ___ visit my friend tomorrow.\n\n(나는 내일 친구를 방문할 ___)",
         options: ["will", "going", "am"],
         correct: 0,
       },
       {
-        question: "She ___ be late for the meeting.\n그녀는 회의에 늦을 ___.",
+        question: "She ___ be late for the meeting.\n\n(그녀는 회의에 늦을 ___)",
         options: ["will", "is", "was"],
         correct: 0,
       },
       {
-        question: "They ___ to travel next month.\n그들은 다음 달 여행을 ___ 것이다.",
+        question: "They ___ to travel next month.\n\n(그들은 다음 달 여행을 ___ 것이다)",
         options: ["go", "are going", "went"],
         correct: 1,
       },
       {
-        question: "We ___ study hard for the exam.\n우리는 시험을 위해 열심히 공부할 ___.",
+        question: "We ___ study hard for the exam.\n\n(우리는 시험을 위해 열심히 공부할 ___)",
         options: ["will", "are", "did"],
         correct: 0,
       },
       {
-        question: "___ you come to the party?\n파티에 ___ 니까?",
+        question: "___ you come to the party?\n\n(파티에 ___ 니까?)",
         options: ["Will", "Do", "Did"],
         correct: 0,
       },
