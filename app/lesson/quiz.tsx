@@ -207,10 +207,15 @@ export const Quiz = ({
     );
   }
 
+  // 영문과 한국어 분리
+  const questionParts = challenge.question.split('\n\n');
+  const englishQuestion = questionParts[0] || challenge.question;
+  const koreanQuestion = questionParts[1] || '';
+
   const title =
     challenge.type === "ASSIST"
       ? "올바른 의미를 선택하세요"
-      : challenge.question;
+      : englishQuestion;
 
   return (
     <>
@@ -225,9 +230,16 @@ export const Quiz = ({
       <div className="flex-1">
         <div className="flex h-full items-center justify-center">
           <div className="flex w-full flex-col gap-y-12 px-6 lg:min-h-[350px] lg:w-[600px] lg:px-0">
-            <h1 className="text-center text-lg font-bold text-neutral-700 lg:text-start lg:text-3xl whitespace-pre-line">
-              {title}
-            </h1>
+            <div className="flex flex-col gap-y-3">
+              <h1 className="text-center text-lg font-bold text-neutral-700 lg:text-start lg:text-3xl">
+                {title}
+              </h1>
+              {koreanQuestion && (
+                <p className="text-center text-sm text-neutral-500 lg:text-start lg:text-base">
+                  {koreanQuestion}
+                </p>
+              )}
+            </div>
 
             <div>
               {challenge.type === "ASSIST" && (
